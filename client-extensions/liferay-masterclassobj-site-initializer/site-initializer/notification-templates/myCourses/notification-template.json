@@ -1,0 +1,22 @@
+{
+	"description": "This template will be used when a new registration for a Course session is submitted.",
+	"editorType": "richText",
+	"externalReferenceCode": "NEW_MYCOURSE_REGISTRATION",
+	"name": "New Course Registration Template",
+	"name_i18n": {
+		"en_US": "New Course Registration Template"
+	},
+	"objectDefinitionExternalReferenceCode": "MYCOURSEENROLLMENT",
+	"recipientType": "role",
+	"recipients": [
+		{
+			"roleName": "Administrator"
+		}
+	],
+	"subject": {
+		"en_US": "A new Registration for the Course [%ENROLLEDSESSION_MYCOURSESESSION_R_SESSIONSOFACOURSE_C_MYCOURSEID%] was received for the [%ENROLLEDSESSION_MYCOURSESESSION_TITLE%] Session, by [%CURRENT_USER_FIRST_NAME%] [%CURRENT_USER_LAST_NAME%]"
+	},
+	"system": false,
+	"type": "userNotification",
+	"typeLabel": "User Notification"
+}
