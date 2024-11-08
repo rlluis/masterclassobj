@@ -14,7 +14,7 @@
 		{
 			"deletionType": "prevent",
 			"label": {
-				"en_US": "Teachers of a Course"
+				"en_US": "Teachers for the Courses"
 			},
 			"name": "myTeacherToMyCourseTeacher",
 			"objectDefinitionExternalReferenceCode1": "MYTEACHER",

@@ -1,0 +1,22 @@
+{
+	"description": "This template will be used when an enrollment is Approved or Discarded by the Course Administrator.",
+	"editorType": "richText",
+	"externalReferenceCode": "MYCOURSE_ENROLLMENT_APPROVAL",
+	"name": "Course Enrollment Approval",
+	"name_i18n": {
+		"en_US": "Course Enrollment Approval"
+	},
+	"objectDefinitionExternalReferenceCode": "MYCOURSEENROLLMENT",
+	"recipientType": "term",
+	"recipients": [
+		{
+			"term": "[%MYCOURSEENROLLMENT_R_USERTOMYCOURSEENROLLMENT_USERID%]"
+		}
+	],
+	"subject": {
+		"en_US": "Your enrollment to the Session [%MYCOURSESESSIONTOMYCOURSEENROLLMENT_MYCOURSESESSION_TITLE%] has been [%MYCOURSEENROLLMENT_ENROLLMENTSTATUS%]."
+	},
+	"system": false,
+	"type": "userNotification",
+	"typeLabel": "User Notification"
+}

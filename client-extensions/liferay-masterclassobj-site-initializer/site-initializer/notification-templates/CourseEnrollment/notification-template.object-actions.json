@@ -10,7 +10,7 @@
 		"name": "notificationSessionCourseEnrollment",
 		"objectActionExecutorKey": "notification",
 		"objectActionTriggerKey": "onAfterAdd",
-		"objectDefinitionId": "[$OBJECT_DEFINITION_ID:MYCOURSEENROLLMENT$]",
+		"objectDefinitionId": "[$OBJECT_DEFINITION_ID:MyCourseEnrollment$]",
 		"parameters": {
 			"notificationTemplateExternalReferenceCode": "NEW_MYCOURSE_REGISTRATION",
 			"objectDefinitionExternalReferenceCode": "MYCOURSEENROLLMENT",

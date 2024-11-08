@@ -296,7 +296,7 @@
 			                              "key":"approved"
 			                           },
 			                           {
-			                              "key":"declined"
+			                              "key":"discarded"
 			                           }
 			                        ],
 			                        "key":"pending"
@@ -315,6 +315,14 @@
 			                        ],
 			                        "key":"approved"
 			                     },
+			                     {
+			                        "objectStateTransitions":[
+			                           {
+			                              "key":"pending"
+			                           }
+			                       	],
+			                        "key":"discarded"
+			                     },			                     
 			                     {
 			                        "objectStateTransitions":[
 			                           {

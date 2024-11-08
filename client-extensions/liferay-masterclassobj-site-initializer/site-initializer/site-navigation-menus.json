@@ -2,25 +2,9 @@
 	{
 		"menuItems": [
 			{
-				"menuItems": [
-					{
-						"key": "/site-initializer/journal-articles/courses/course_design.json",
-						"type": "display-page"
-					},
-					{
-						"key": "/site-initializer/journal-articles/courses/course_management.json",
-						"type": "display-page"
-					},
-					{
-						"key": "/site-initializer/journal-articles/courses/course_marketing.json",
-						"type": "display-page"
-					}
-				],
-				"name_i18n": {
-					"en_US": "Courses"
-				},
-				"title": "Courses",
-				"type": "node"
+				"friendlyURL": "/courses",
+				"privateLayout": false,
+				"type": "layout"
 			},
 			{
 				"friendlyURL": "/blog",
@@ -38,10 +22,15 @@
 	{
 		"menuItems": [
 			{
-				"friendlyURL": "/my-learning",
+				"friendlyURL": "/myconfirmedcourses",
 				"privateLayout": false,
 				"type": "layout"
 			},
+			{
+				"friendlyURL": "/allmycourses",
+				"privateLayout": false,
+				"type": "layout"
+			},			
 			{
 				"friendlyURL": "/notifications",
 				"privateLayout": false,

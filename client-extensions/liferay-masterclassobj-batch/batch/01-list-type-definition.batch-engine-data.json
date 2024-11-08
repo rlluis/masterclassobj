@@ -58,6 +58,14 @@
 		         "type":"",
 		         "key":"approved"
 			     },
+			    {
+		         "name_i18n":{
+		            "en-US":"Discarded"
+		         },
+		         "name":"Discarded",
+		         "type":"",
+		         "key":"discarded"
+			     },
 			     {
 			         "name_i18n":{
 			            "en-US":"Confirmed"

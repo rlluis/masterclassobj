@@ -1,8 +1,8 @@
 {
-	"friendlyURL": "/my-learning",
+	"friendlyURL": "/myconfirmedcourses",
 	"hidden": false,
 	"name_i18n": {
-		"en_US": "My Learning"
+		"en_US": "My Confirmed Courses"
 	},
 	"private": false,
 	"system": false,
