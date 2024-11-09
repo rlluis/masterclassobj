@@ -43,10 +43,10 @@
       	},
 		{
 			"externalReferenceCode": "MYTEACHER_BATCH_4",
-			"name":"Jerome",
+			"name":"Patrick",
 			"photo":{
 				"fileBase64": "@batch_object_entry_file_base64@",
-				"name": "teacher_jerome_bell.jpg"
+				"name": "teacher_patrick.jpg"
 			},
 			"specialization":"<p>Front-End</p>",
 			"surname":"Bell"			
