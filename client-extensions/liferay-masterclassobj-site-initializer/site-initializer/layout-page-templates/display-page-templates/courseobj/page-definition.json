@@ -932,7 +932,7 @@
                      {
                         "definition":{
                            "fragment":{
-                              "key":"FORMED_COMPONENTS_FRAGMENTS-mappable-video"
+                              "key":"courses-mappablevideo"
                            },
                            "fragmentConfig":{
                               "hideControls":false,
