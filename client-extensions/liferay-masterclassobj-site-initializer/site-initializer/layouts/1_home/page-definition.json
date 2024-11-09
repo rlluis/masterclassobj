@@ -93,7 +93,7 @@
 										},
 										"text": {
 											"value_i18n": {
-												"en_US": "Courses"
+												"en_US": "Highlighted Courses"
 											}
 										}
 									}
@@ -145,17 +145,21 @@
 								"definition": {
 									"collectionConfig": {
 										"collectionReference": {
-											"className": "com.liferay.asset.list.model.AssetListEntry",
-											"classPK": "[$ASSET_LIST_ENTRY_ID:COURSES$]"
+											"className": "com.liferay.object.web.internal.info.collection.provider.ObjectEntrySingleFormVariationInfoCollectionProvider_[$COMPANY_ID$]_C_MyCourse"
 										},
-										"collectionType": "Collection"
+										"collectionType": "CollectionProvider"
 									},
-									"listItemStyle": "",
-									"listStyle": "",
-									"numberOfColumns": 3,
-									"numberOfItems": 5,
-									"numberOfItemsPerPage": 5,
-									"templateKey": ""
+				                    "displayAllItems": false,
+				                    "displayAllPages": false,
+				                    "listItemStyle": "",
+				                    "listStyle": "",
+				                    "numberOfColumns": 3,
+				                    "numberOfItems": 3,
+				                    "numberOfItemsPerPage": 5,
+				                    "numberOfPages": 1,
+				                    "paginationType": "None",
+				                    "showAllItems": false,
+				                    "templateKey": ""
 								},
 								"pageElements": [
 									{
@@ -185,45 +189,11 @@
 													{
 														"definition": {
 															"fragment": {
-																"key": "masterclass-text-block"
-															},
-															"fragmentConfig": {
-															},
-															"fragmentFields": [
-																{
-																	"id": "element-text",
-																	"value": {
-																		"fragmentLink": {
-																			"value_i18n": {
-																			}
-																		},
-																		"text": {
-																			"mapping": {
-																				"fieldKey": "masterclass",
-																				"itemReference": {
-																					"contextSource": "CollectionItem"
-																				}
-																			}
-																		}
-																	}
-																}
-															],
-															"fragmentStyle": {
-																"fontFamily": "fontFamilySansSerif",
-																"marginBottom": "2",
-																"textColor": "secondaryColor"
-															}
-														},
-														"type": "Fragment"
-													},
-													{
-														"definition": {
-															"fragment": {
 																"key": "masterclass-heading"
 															},
 															"fragmentConfig": {
 																"displayLevel": "0",
-																"headingLevel": "h2"
+																"headingLevel": "h3"
 															},
 															"fragmentFields": [
 																{
@@ -245,7 +215,7 @@
 																		},
 																		"text": {
 																			"mapping": {
-																				"fieldKey": "Name",
+																				"fieldKey": "ObjectField_title",
 																				"itemReference": {
 																					"contextSource": "CollectionItem"
 																				}
@@ -277,7 +247,7 @@
 																		},
 																		"text": {
 																			"mapping": {
-																				"fieldKey": "ShortDescription",
+																				"fieldKey": "ObjectField_shortDescription",
 																				"itemReference": {
 																					"contextSource": "CollectionItem"
 																				}
@@ -292,38 +262,6 @@
 															}
 														},
 														"type": "Fragment"
-													},
-													{
-														"definition": {
-															"fragment": {
-																"key": "masterclass-link"
-															},
-															"fragmentConfig": {
-																"linkSize": "lg"
-															},
-															"fragmentFields": [
-																{
-																	"id": "link",
-																	"value": {
-																		"fragmentLink": {
-																			"value": {
-																				"href": {
-																					"mapping": {
-																						"fieldKey": "displayPageURL",
-																						"itemReference": {
-																							"contextSource": "CollectionItem"
-																						}
-																					}
-																				}
-																			},
-																			"value_i18n": {
-																			}
-																		}
-																	}
-																}
-															]
-														},
-														"type": "Fragment"
 													}
 												],
 												"type": "Section"
@@ -333,7 +271,60 @@
 									}
 								],
 								"type": "Collection"
-							}
+							},
+			               {
+			                  "definition": {
+			                    "fragment": {
+			                      "key": "masterclass-link",
+								  "siteKey": "[$GROUP_KEY$]"			                      
+			                   	},
+			                    "fragmentConfig": {
+			                      "linkSize": "lg"
+			                    },
+			                    "fragmentFields": [
+			                      {
+			                        "id": "link",
+			                        "value": {
+			                          "fragmentLink": {
+			                            "value": {
+			                              "href": {
+			                                "mapping": {
+			                                  "itemReference": {
+			                                    "className": "com.liferay.portal.kernel.model.Layout",
+			                                    "fields": [
+			                                      {
+			                                        "fieldName": "friendlyURL",
+			                                        "fieldValue": "/courses"
+			                                      },
+			                                      {
+			                                        "fieldName": "privatePage",
+			                                        "fieldValue": "false"
+			                                      },
+			                                      {
+			                                        "fieldName": "siteKey",
+			                                        "siteKey": "[$GROUP_KEY$]"
+			                                      }
+			                                    ]
+			                                  }
+			                                }
+			                              }
+			                            }
+			                          },
+			                        	"text": {
+			                            	"value_i18n": {
+			                              	"en_US": "ALL COURSES"
+			                            }
+			                          }			                          
+			                        }
+			                      }
+			                    ],
+			                    "fragmentStyle": {
+			                      "textAlign": "right"
+			                    },
+			                    "indexed": true
+			                  },
+ 			                  "type": "Fragment"
+			                }							
 						],
 						"type": "Section"
 					}

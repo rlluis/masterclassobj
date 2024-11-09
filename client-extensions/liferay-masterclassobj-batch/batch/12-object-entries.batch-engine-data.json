@@ -6,7 +6,7 @@
 			"createStrategy": "UPSERT",
 			"onErrorFail": "false",
 			"taskItemDelegateName": "C_MyCourse",			
-			"updateStrategy": "UPDATE"		
+			"updateStrategy": "UPDATE"	
 		},
 		"taskItemDelegateName": "C_MyCourse"
 	},
@@ -42,7 +42,7 @@
 	      "representativeVideo":{
 				"fileBase64": "@batch_object_entry_file_base64@",
 				"name": "video_management.mp4"
-	      },
+	      },      
 	      "shortDescription":"Liferay DXP flexible platform simplifies and optimizes site development. Come on and dive in together with our first steps",
 	      "maxRetakes":"2",
 	      "passPercentage":75,
@@ -61,7 +61,7 @@
 	      "representativeVideo":{
 				"fileBase64": "@batch_object_entry_file_base64@",
 				"name": "video_design.mp4"
-	      },
+	      },     
 	      "shortDescription":"Now we will dig into the best practices on how to extend Liferay DXP to its limits, taking into consideration all that we have learnt and expanding it.",
 	      "maxRetakes":"2",
 	      "passPercentage":85,
@@ -80,7 +80,7 @@
 	      "representativeVideo":{
 				"fileBase64": "@batch_object_entry_file_base64@",
 				"name": "video_marketing.mp4"
-	      },
+	      },	      
 	      "shortDescription":"An introductory course for starting with Liferay DXP and its extension capabilities",
 	      "maxRetakes":"2",
 	      "passPercentage":90,
@@ -99,7 +99,7 @@
 	      "representativeVideo":{
 				"fileBase64": "@batch_object_entry_file_base64@",
 				"name": "video_management.mp4"
-	      },
+	      },	      
 	      "shortDescription":"Starting course for front-end developers at Liferay",
 	      "maxRetakes":"2",
 	      "passPercentage":80,

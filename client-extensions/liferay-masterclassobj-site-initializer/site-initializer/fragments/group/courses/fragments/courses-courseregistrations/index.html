@@ -17,10 +17,9 @@ function decline(myID){
 }
 </script>
 
-
 [#assign currentUser = user.getUserId() /]
 [#assign parameters="?filter=r_userToMyCourseEnrollment_userId eq '" + currentUser + "'&nestedFields=myCourseSessions"/]
-[#assign courseSessions = restClient.get("/c/mycourseenrollments/" + parameters)/]	
+[#assign courseSessions = restClient.get("/c/mycourseenrollments" + parameters)/]
 <div style="width:100%">
 <table class="fragment_83421" style="width:100%">
 	<thead>

@@ -1,6 +1,6 @@
 [#assign currentUser = user.getUserId() /]
 [#assign parameters="?filter=r_userToMyCourseEnrollment_userId eq '" + currentUser + "' and enrollmentStatus eq 'confirmed'&nestedFields=myCourseSessions"/]
-[#assign courseSessions = restClient.get("/c/mycourseenrollments/" + parameters)/]	
+[#assign courseSessions = restClient.get("/c/mycourseenrollments" + parameters)/]	
 [#assign elementos=0/]
 <div class="row align-items-start listado">
 [#if (courseSessions?has_content)]
