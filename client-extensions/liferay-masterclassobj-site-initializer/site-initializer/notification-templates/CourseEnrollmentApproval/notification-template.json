@@ -13,11 +13,6 @@
 	"recipientType": "email",
 	"recipients": [
 	   {
-	      "cc": "",
-	      "ccType": "email",
-	      "bccType": "email",
-	      "bcc": "",
-	      "toType": "email",
 	      "singleRecipient": false,
 	      "fromName": {
 	        "en_US": "Liferay Course Admin"
