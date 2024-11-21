@@ -19,5 +19,7 @@ In this project you will find:
   - I will be adding more releases as soon as I succeed in adding more features: categorization, course rating, course geolocation, seats management, etc.
  
  Please read the instructions that you'll find together with the releases' notes in order to install the CX properly if you decide to build them from the source code. In such a case, just for you to know I was using 2024.Q3.3 as my basic version configured in Liferay Workspace, etc.
+ One more thing: if you are using 2024.Q3 or prior, please remember to have activated the following Feature Flag to be able to process Base64 attachments in objects: 
+  - add to your potal-ext.properties --> feature.flag.LPS-174455=true
  
  Thanks! More than happy to get PRs or suggestions through rafael.lluis@liferay.com
