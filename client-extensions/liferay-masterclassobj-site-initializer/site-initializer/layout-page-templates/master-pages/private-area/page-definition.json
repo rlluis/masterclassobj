@@ -136,6 +136,7 @@
 													"expandedLevels": "auto",
 													"rootMenuItemLevel": "0",
 													"rootMenuItemType": "absolute",
+													"siteNavigationMenuExternalReferenceCode": "MNU_Private_Navigation",													
 													"siteNavigationMenuName": "Private Area Navigation",
 													"siteNavigationMenuType": "-1"
 												},
@@ -426,6 +427,7 @@
 																"expandedLevels": "auto",
 																"rootMenuItemLevel": "0",
 																"rootMenuItemType": "absolute",
+																"siteNavigationMenuExternalReferenceCode": "MNU_Private_Navigation",																
 																"siteNavigationMenuName": "Private Area Navigation",
 																"siteNavigationMenuType": "-1"
 															},

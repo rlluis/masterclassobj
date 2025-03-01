@@ -1,5 +1,6 @@
 [
 	{
+		externalReferenceCode: "MNU_Main_Navigation",
 		"menuItems": [
 			{
 				"friendlyURL": "/courses",
@@ -20,6 +21,7 @@
 		"name": "Main Navigation"
 	},
 	{
+		externalReferenceCode: "MNU_Private_Navigation",
 		"menuItems": [
 			{
 				"friendlyURL": "/myconfirmedcourses",
